@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 from data_process import load_data, preprocess_data, extract_features
 
 # 1) 数据加载与处理
-df = load_data("data/SMSSpamCollection")   # 修改为你的路径
+df = load_data("data/SMSSpamCollection")
 df = preprocess_data(df)
 
 # 2) 特征提取
